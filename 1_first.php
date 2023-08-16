@@ -1,4 +1,4 @@
 <?php
-define("Hello World");
-echo GREETING;
+define("Hello World","v");//define a constant
+echo "GREETINGS";
 ?>
