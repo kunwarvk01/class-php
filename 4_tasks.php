@@ -1,6 +1,6 @@
 <?php
-//php program to develop a grading system
-$marks = readline("Enter marks: ");
+
+$marks =(int)readline("Enter marks: ");
 if($marks >= 90)                                                                                   
 {
     echo "A grade";
@@ -23,20 +23,20 @@ else
 }
 
 
-//php program to develop a university registration form
-$name = readline("Enter your name: ");
-$age = readline("Enter your age: ");
-$gender = readline("Enter your gender: ");
-$course = readline("Enter your course: ");
-$year = readline("Enter your year: ");
-$percentage = readline("Enter your percentage: ");
-echo "Name: ".$name;
-echo "\nAge: ".$age;
-echo "\nGender: ".$gender;
-echo "\nCourse: ".$course;
-echo "\nYear: ".$year;
-if($percentage >= 70)
-echo "Permitted to entrance give exam";
-else
-echo "Not permitted to entrance give exam";
+// //php program to develop a university registration form
+// $name = readline("Enter your name: ");
+// $age = (int)readline("Enter your age: ");
+// $gender = readline("Enter your gender: ");
+// $course = readline("Enter your course: ");
+// $year = (int)readline("Enter your year: ");
+// $percentage = (int)readline("Enter your percentage: ");
+// echo "Name: ".$name;
+// echo "\nAge: ".$age;
+// echo "\nGender: ".$gender;
+// echo "\nCourse: ".$course;
+// echo "\nYear: ".$year;
+// if($percentage >= 70)
+// echo "Permitted to entrance give exam";
+// else
+// echo "Not permitted to entrance give exam";
 ?>
