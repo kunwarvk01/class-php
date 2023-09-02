@@ -8,11 +8,10 @@ echo "<br>";
 echo gettype($marks);
 echo "<br>";
 
-class medicine{
+class Medicine{
     function medicine_prescription(){
         echo "prescribed by medical practitioner";
     }
-
 }
 
 $medicine = new medicine();
