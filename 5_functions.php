@@ -7,4 +7,20 @@ $result = array (
 );
 
 $names = array_column($result, 'name');
+//write a function to add two numbers
+function add($a, $b){
+    return $a + $b;
+    }
+//write a function to multiply two numbers 
+function multiply($a, $b){
+    return $a * $b;
+}
+//write a function to divide two numbers
+function divide($a, $b){
+    return $a / $b;
+}
+
+    
+
+
 ?>
