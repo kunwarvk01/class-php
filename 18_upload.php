@@ -10,7 +10,7 @@ if(isset($_POST["submit"])){
         echo "File is an image : ".$check["mime"].".";
         $uploadOk=1;
     }else{
-        echo "File is not an image";
+        echo "File is not an image.";
         $uploadOk=0;
     }
 }
